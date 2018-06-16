@@ -1,3 +1,4 @@
+alert("This is a Color Guessing Game, the game is over after you have guessed the right color based on the given rgb color.")
 var num = 6;
 var modeButtons = document.querySelectorAll(".mode");
 var squares = document.getElementsByClassName("square");
