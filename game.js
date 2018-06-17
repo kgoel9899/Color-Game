@@ -1,8 +1,8 @@
-alert("This is a Color Guessing Game, the game is over after you have guessed the right color based on the given rgb color.")
+alert("This is a Colour Guessing Game, the game is over after you have guessed the right colour based on the given rgb value.")
 var num = 6;
 var modeButtons = document.querySelectorAll(".mode");
 var squares = document.getElementsByClassName("square");
-var rg = document.getElementsByClassName("color");
+var rg = document.getElementsByClassName("colour");
 var rese = document.getElementsByClassName("reset");
 var message = document.getElementById("text");
 var header = document.getElementsByClassName("header");
@@ -42,7 +42,7 @@ function reset() {
 		squares[4].style.display = "block";
 		squares[5].style.display = "block";
 	}
-	rese[0].textContent = "NEW COLORS";
+	rese[0].textContent = "NEW COLOURS";
 }
 rese[0].addEventListener("click", function() {
 	reset();
